@@ -1,0 +1,67 @@
+body {
+    max-width: 1920px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+
+}
+
+.header {
+   background-color: #f4f5f8;
+    background-image: url(../img/header/Waxon.jpg);
+        background-repeat:no-repeat;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 181px;
+}
+
+.logo_waxom {
+    fill: #fff;
+}
+
+.logo-txt {
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+    text-decoration: none;
+}
+.logo-wax{
+    display: flex;
+    justify-content: center
+}
+.menu {
+    list-style-type: none;
+    width: 637px;
+    /* можно попробовать задать min-width и max-width */
+    padding: 0;
+    margin: 0 0 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {}
+
+ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 70px
+}
+.slogan{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
